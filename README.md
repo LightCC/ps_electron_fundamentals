@@ -8,7 +8,7 @@ Electron powers apps like the Visual Studio Code IDE (on which I am typing this)
 
 ## Developer Guide
 
-How to recreate an electron project like this from scratch. Or, you can follow the guide at: https://www.electronjs.org/docs/tutorial/first-app
+How to recreate an electron project like this from scratch. Or, you can follow the guide at: [Electron First App Tutorial](https://www.electronjs.org/docs/tutorial/first-app)
 
 1. Install Node.JS (with NPM)
     - If you don't have this yet, this might not be the course for you...

@@ -1,0 +1,23 @@
+{
+  "name": "ps_electron_fundamentals",
+  "version": "1.0.0",
+  "description": "My practice app for Pluralsight Electron Fundamentals course",
+  "main": "src/main.js",
+  "dependencies": {
+    "electron": "^9.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LightCC/ps_electron_fundamentals.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LightCC/ps_electron_fundamentals/issues"
+  },
+  "homepage": "https://github.com/LightCC/ps_electron_fundamentals#readme"
+}

@@ -8,8 +8,11 @@ let mainWindow
 app.on('ready', _ => {
     mainWindow = new BrowserWindow({
         height: 400,
-        width: 400
+        width: 900
     })
+
+    mainWindow.loadURL(`file://${__dirname}/countdown.html`)
+    mainWindow.webContents.openDevTools({ mode: 'right' })
 
     mainWindow.on('closed', _ => {
         console.log('closed!')

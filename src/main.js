@@ -7,12 +7,25 @@ let mainWindow
 
 app.on('ready', _ => {
     mainWindow = new BrowserWindow({
-        height: 400,
-        width: 900
+        title: "My Electron App",
+        backgroundColor: '#FFF',
+        height: 800,
+        width: 1200,
+        //show: false, // will hide the window initially
+        center: true,
+        webPreferences: {
+            nodeIntegration: true
+        }
     })
 
     mainWindow.loadURL(`file://${__dirname}/countdown.html`)
-    mainWindow.webContents.openDevTools({ mode: 'right' })
+    mainWindow.webContents.openDevTools({
+        mode: 'right'
+    })
+    console.log(mainWindow.getContentBounds())
+    //mainWindow.setBounds({ width: 200 })
+    //console.log(mainWindow.getContentBounds().toString())
+
 
     mainWindow.on('closed', _ => {
         console.log('closed!')

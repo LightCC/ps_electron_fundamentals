@@ -12,8 +12,8 @@ app.on('ready', _ => {
     mainWindow = new BrowserWindow({
         title: "My Electron App",
         backgroundColor: '#FFF',
-        height: 800,
-        width: 1200,
+        height: 400,
+        width: 400,
         center: true,
         webPreferences: {
             nodeIntegration: true

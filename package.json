@@ -4,7 +4,7 @@
   "description": "My practice app for Pluralsight Electron Fundamentals course",
   "main": "src/main.js",
   "dependencies": {
-    "electron": "^9.1.2"
+    "electron": "^15.5.5"
   },
   "devDependencies": {},
   "scripts": {
